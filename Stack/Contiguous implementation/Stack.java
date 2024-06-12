@@ -44,7 +44,7 @@ public class Stack{
         System.out.println(" ");
         System.out.println("Stack Size >>> "+top+1);
     }
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Stack myStack = new Stack(5);
         myStack.push(10);
         myStack.push(20);
@@ -61,5 +61,5 @@ public class Stack{
         myStack.Size();
         //myStack.pop();
        // myStack.pop();
-    }
+    }*/
 } 
