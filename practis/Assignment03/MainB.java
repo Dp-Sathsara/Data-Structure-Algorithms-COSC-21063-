@@ -21,7 +21,7 @@ public class MainB {
         int maxIndex = 0;
         for(int i = 0; i < list.size(); i++){
             int total = 0;
-            for(int j = 0; j < 3; j++){ෂ්
+            for(int j = 0; j < 3; j++){
                 total += list.sales[i][j];
             }
             if(total > max){
