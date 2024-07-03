@@ -21,14 +21,14 @@ public class MainB {
         int maxIndex = 0;
         for(int i = 0; i < list.size(); i++){
             int total = 0;
-            for(int j = 0; j < 3; j++){
+            for(int j = 0; j < 3; j++){ෂ්
                 total += list.sales[i][j];
             }
             if(total > max){
                 max = total;
                 maxIndex = i;
             }
-        }   
+        }
         System.out.println(list.productNames[maxIndex] + " is the best selling overall");
     }
     public static void main(String[] args) {
